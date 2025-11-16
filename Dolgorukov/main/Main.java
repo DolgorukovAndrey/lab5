@@ -2,15 +2,13 @@ package ru.Dolgorukov.main;
 
 import java.util.*;
 
-import ru.Dolgorukov.Cat.Cat;
-import ru.Dolgorukov.Cat.MeowCount;
-import ru.Dolgorukov.Cat.MethodsCat;
-import ru.Dolgorukov.Methods.ClassMethods;
-import ru.Dolgorukov.point.Line;
+import ru.Dolgorukov.сat.Cat;
+import ru.Dolgorukov.сat.MeowCount;
+import ru.Dolgorukov.сat.MethodsCat;
+import ru.Dolgorukov.methods.ClassMethods;
 import ru.Dolgorukov.point.MethodsPoint;
 import ru.Dolgorukov.point.Point;
-import ru.Dolgorukov.point.Polyline;
-import ru.Dolgorukov.point.MethodsPoint;
+
 
 public class Main {
     public static void main(String[] args) {

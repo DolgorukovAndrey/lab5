@@ -22,12 +22,6 @@ public class Fraction implements Cloneable, Methods{
         this.cachedFraction = null;
     }
 
-    public Fraction(Fraction fraction) {
-        this.numerator = fraction.numerator;
-        this.denominator = fraction.denominator;
-        this.cachedFraction = fraction.cachedFraction;
-    }
-
     public void setNumerator(int numerator) {
         this.numerator = numerator;
     }
