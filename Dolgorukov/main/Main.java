@@ -40,7 +40,7 @@ public class Main {
         MeowCount meowCount = new MeowCount(cat);
         meowCount.meow();
         m.meowing(meowCount, meowCount);
-        System.out.println(meowCount.getCatName() + " - кол-во мяуканий: " + meowCount.getCaountMeow());
+        System.out.println(meowCount.getCatName() + " - кол-во мяуканий: " + meowCount.getCountMeow());
         Point point1 = new Point(10,2);
         Point point2 = new Point(2,3);
         Point point3 = new Point(-11,-12);

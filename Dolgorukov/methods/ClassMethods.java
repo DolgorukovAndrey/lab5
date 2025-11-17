@@ -58,7 +58,7 @@ public class ClassMethods {
 
     public void task4() {
         Scanner scanner = null;
-        Map<Integer, List<String>> scoreStudents = new HashMap<>();
+        SortedMap<Integer, List<String>> scoreStudents = new TreeMap<>(Comparator.reverseOrder());
         int max = 0;
         String name = "";
         int scores = 0;
@@ -85,7 +85,7 @@ public class ClassMethods {
             scores = 0;
             j += 1;
         }
-        List<String> topStudents = scoreStudents.get(max);
+        List<String> topStudents = scoreStudents.get(scoreStudents.firstKey());
         for (String student : topStudents) {
             System.out.println(student);
         }

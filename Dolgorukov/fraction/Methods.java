@@ -1,6 +1,6 @@
 package ru.Dolgorukov.fraction;
 
 public interface Methods {
-    float getFractionFloat();
+    double getFractionFloat();
     void setNumDen(int numerator,int denomenator);
 }

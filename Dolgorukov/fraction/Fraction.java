@@ -5,12 +5,10 @@ import java.util.Objects;
 public class Fraction implements Cloneable, Methods{
     private int numerator;
     private int denominator;
-    private Float cachedFraction;
 
     public Fraction() {
         this.numerator = 0;
         this.denominator = 1;
-        this.cachedFraction = null;
     }
 
     public Fraction(int numerator, int denominator) {
@@ -19,7 +17,6 @@ public class Fraction implements Cloneable, Methods{
         }
         this.numerator = numerator;
         this.denominator = denominator;
-        this.cachedFraction = null;
     }
 
     public void setNumerator(int numerator) {
@@ -70,14 +67,10 @@ public class Fraction implements Cloneable, Methods{
         } else {
             this.denominator = denominator;
         }
-        this.cachedFraction = null;
     }
 
-    public float getFractionFloat() {
-        if (cachedFraction == null) {
-            cachedFraction = (float) this.numerator / this.denominator;
-        }
-        return cachedFraction;
+    public double getFractionFloat() {
+        return (double) this.numerator / this.denominator;
     }
 
     public String toString() {

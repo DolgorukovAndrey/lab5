@@ -9,7 +9,7 @@ public class MeowCount implements Meow {
         this.countMeow = 0;
     }
 
-    public int getCaountMeow() {
+    public int getCountMeow() {
         return this.countMeow;
     }
 
